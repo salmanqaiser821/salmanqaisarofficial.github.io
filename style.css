@@ -120,7 +120,9 @@ body {
   color: var(--text-color);
 }
 
-h1,
+h1{
+  color: rgb(40, 172, 196);
+}
 h2,
 h3,
 h4 {
@@ -193,7 +195,10 @@ img {
   align-items: center;
 }
 
-.nav__logo,
+.nav__logo
+{
+  color: rgb(40, 172, 196);
+}
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
@@ -332,6 +337,7 @@ img {
 
 .home__scroll {
   display: none;
+  padding-left: 27ch;
 }
 
 .home__scroll-button {
@@ -936,11 +942,12 @@ img {
 }
 
 .footer__bg {
-  background-color: rgb(96, 151, 177);
+  background-color: rgba(67, 117, 126, 0.568);
   padding: 2rem 0 3rem;
 }
 
 .footer__title {
+  
   font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
 }
@@ -971,7 +978,7 @@ img {
 .footer__copy {
   font-size: 18px;
   text-align: center;
-  color: #fff;
+  color:#ffff;
   margin-top: var(--mb-3);
 }
 
@@ -979,7 +986,7 @@ img {
 .footer__subtitle,
 .footer__link,
 .footer__social {
-  color: #fff;
+  color:#fff;
 }
 
 /*========== SCROLL UP ==========*/
